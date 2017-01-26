@@ -1,0 +1,28 @@
+# vsim -lib __work -c alu_hier_bench 
+# //  ModelSim SE 5.8b Jan 01 2004 Linux 2.6.32-573.7.1.el6.x86_64
+# //
+# //  Copyright Model Technology, a Mentor Graphics Corporation company, 2004
+# //                         All Rights Reserved.
+# //                   UNPUBLISHED, LICENSED SOFTWARE.
+# //         CONFIDENTIAL AND PROPRIETARY INFORMATION WHICH IS THE
+# //        PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS.
+# //
+# Loading __work.alu_hier_bench
+# Loading __work.alu_hier
+# Loading __work.clkrst
+# Loading __work.alu
+# Loading __work.arithmetic
+# Loading __work.cla16
+# Loading __work.cla4
+# Loading __work.shifter
+# Loading __work.mux4_1
+# Loading __work.mux2_1
+# Loading __work.not1
+# Loading __work.nor2
+# Loading __work.shifter2
+# Loading __work.shifter4
+# Loading __work.shifter8
+run -all
+# TEST PASSED
+# ** Note: $finish    : alu_hier_bench.v(42)
+#    Time: 5 us  Iteration: 0  Instance: /alu_hier_bench
