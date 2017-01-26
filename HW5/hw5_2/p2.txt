@@ -1,0 +1,13 @@
+Answer to b):
+
+lbi r0, 0 // No branch prediction.
+lbi r3, 0 // No branch prediction.
+lbi r4, 0 // No branch prediction.
+lbi r5, 0 // No branch prediction.
+lbi r6, 0 // No branch prediction.
+beqz r0, 2 // Assuming: "All branches should be predicted not-taken. This means that the pipeline should continue to execute sequentially until the branch resolves, and then squash instructions after the branch if the branch 
+	   // was actually taken." Then, the processor assumed this branch wouldn't be taken; however, the branch was taken.
+add r3, r4, r5 // Instruction squashed.
+beqz r0, 2 // Assuming the above, and assuming a 2-bit prediction scheme, then the processor assumed this branch wouldn't be taken either; however, the branch was taken. Any further branches would be predicted as taken.
+add r3, r2, r3 // Instruction squashed.
+add r3, r6, r6 // No branch prediction.

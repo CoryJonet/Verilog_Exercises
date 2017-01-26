@@ -1,0 +1,9 @@
+lbi r1, 6 	// no forwarding. start of program
+lbi r2, 10 	// no dependency. no need to forward.
+lbi r3, 14	// no dependency. no need to forward.
+lbi r6, 0	// no dependency. no need to forward.
+add r1, r2, r3 	// no forwarding here.
+st r6, r1, 4	// forwarding from beginning of MEM to beginning of EX in next instruction. The value of r1 was forwarded from MEM because the processor needed to calculate the address r1 + 4
+ld r6, r1, 4	// forwarding from beginning of WB to beginning of EX in next instruction. The value of r1 was forwarded from WB because the processor needed to calculate the address r1 + 4
+ld r1, r6, 24	// stalled for one cycle because r6 is NOT known until WB stage of previous instruction. Forwarding from WB stage to EX in next instruction.  
+add r5, r3, r1	// two cycle stall. (One cycle stall from previous instruction). Other stall is because r1 is NOT known until MEM stage of previous instruction. 
