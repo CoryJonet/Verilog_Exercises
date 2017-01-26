@@ -1,0 +1,85 @@
+/afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_2/dff.v {1 {vlog -work work /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_2/dff.v
+Model Technology ModelSim SE vlog 5.8b Compiler 2004.01 Jan 26 2004
+-- Compiling module dff
+
+Top level modules:
+	dff
+
+} {} {}} /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_1/xor2.v {1 {vlog -work work /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_1/xor2.v
+Model Technology ModelSim SE vlog 5.8b Compiler 2004.01 Jan 26 2004
+-- Compiling module xor2
+
+Top level modules:
+	xor2
+
+} {} {}} /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_1/xor3.v {1 {vlog -work work /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_1/xor3.v
+Model Technology ModelSim SE vlog 5.8b Compiler 2004.01 Jan 26 2004
+-- Compiling module xor3
+
+Top level modules:
+	xor3
+
+} {} {}} /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_2/sc_bench.v {1 {vlog -work work /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_2/sc_bench.v
+Model Technology ModelSim SE vlog 5.8b Compiler 2004.01 Jan 26 2004
+-- Compiling module sc_bench
+
+Top level modules:
+	sc_bench
+
+} {} {}} /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_1/nor2.v {1 {vlog -work work /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_1/nor2.v
+Model Technology ModelSim SE vlog 5.8b Compiler 2004.01 Jan 26 2004
+-- Compiling module nor2
+
+Top level modules:
+	nor2
+
+} {} {}} /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_1/nor3.v {1 {vlog -work work /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_1/nor3.v
+Model Technology ModelSim SE vlog 5.8b Compiler 2004.01 Jan 26 2004
+-- Compiling module nor3
+
+Top level modules:
+	nor3
+
+} {} {}} /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_1/not1.v {1 {vlog -work work /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_1/not1.v
+Model Technology ModelSim SE vlog 5.8b Compiler 2004.01 Jan 26 2004
+-- Compiling module not1
+
+Top level modules:
+	not1
+
+} {} {}} /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_1/nand2.v {1 {vlog -work work /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_1/nand2.v
+Model Technology ModelSim SE vlog 5.8b Compiler 2004.01 Jan 26 2004
+-- Compiling module nand2
+
+Top level modules:
+	nand2
+
+} {} {}} /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_1/nand3.v {1 {vlog -work work /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_1/nand3.v
+Model Technology ModelSim SE vlog 5.8b Compiler 2004.01 Jan 26 2004
+-- Compiling module nand3
+
+Top level modules:
+	nand3
+
+} {} {}} /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_2/clkrst.v {1 {vlog -work work /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_2/clkrst.v
+Model Technology ModelSim SE vlog 5.8b Compiler 2004.01 Jan 26 2004
+-- Compiling module clkrst
+
+Top level modules:
+	clkrst
+
+} {} {}} /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_2/sc_hier.v {1 {vlog -work work /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_2/sc_hier.v
+Model Technology ModelSim SE vlog 5.8b Compiler 2004.01 Jan 26 2004
+-- Compiling module sc_hier
+
+Top level modules:
+	sc_hier
+
+} {} {}} /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_2/sc.v {1 {vlog -work work /afs/cs.wisc.edu/u/j/o/jonet/private/ece552/HW_3/hw3/hw3_2/sc.v
+Model Technology ModelSim SE vlog 5.8b Compiler 2004.01 Jan 26 2004
+-- Compiling module sc
+
+Top level modules:
+	sc
+
+} {} {}}
